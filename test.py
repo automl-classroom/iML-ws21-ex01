@@ -4,7 +4,6 @@ import socket
 import numpy as np
 
 
-
 @pytest.fixture
 def tb():
     with testbook('exercise.ipynb') as tb:
